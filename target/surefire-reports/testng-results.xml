@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3119" started-at="2019-07-25T11:12:12Z" finished-at="2019-07-25T11:12:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3119" started-at="2019-07-25T11:12:12Z" finished-at="2019-07-25T11:12:15Z">
+      <class name="restAssuredFramework.AgodaBookingFlow">
+        <test-method status="PASS" signature="setEnv()[pri:0, instance:restAssuredFramework.AgodaBookingFlow@13fee20c]" name="setEnv" is-config="true" duration-ms="28" started-at="2019-07-25T11:12:12Z" finished-at="2019-07-25T11:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEnv -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:restAssuredFramework.AgodaBookingFlow@13fee20c]" name="search" duration-ms="2868" started-at="2019-07-25T11:12:12Z" data-provider="hotelids" finished-at="2019-07-25T11:12:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[785533]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:restAssuredFramework.AgodaBookingFlow@13fee20c]" name="search" duration-ms="187" started-at="2019-07-25T11:12:15Z" data-provider="hotelids" finished-at="2019-07-25T11:12:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2814176]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:restAssuredFramework.AgodaBookingFlow@13fee20c]" name="testcase1" duration-ms="0" started-at="2019-07-25T11:12:15Z" finished-at="2019-07-25T11:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- restAssuredFramework.AgodaBookingFlow -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
